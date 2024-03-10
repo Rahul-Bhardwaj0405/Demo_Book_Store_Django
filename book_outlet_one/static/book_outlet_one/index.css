@@ -1,0 +1,28 @@
+/* index.css */
+
+/* Style for the h1 element */
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style for the h2 element */
+h2 {
+    font-size: 24px;
+    color: #666;
+    text-align: center;
+}
+
+/* Style for the paragraph containing book titles */
+p.book-title {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Additional styles for spacing */
+.content-container {
+    padding: 20px;
+}

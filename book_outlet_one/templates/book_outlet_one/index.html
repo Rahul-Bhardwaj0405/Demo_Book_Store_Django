@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    Welcome Book Lovers
+{% endblock%}
+
+{% block css_files %}
+    <link rel="stylesheet"  href ={% static "book_outlet_one/index.css" %}>
+{% endblock %}
+
+{% block  content %}
+<h1> List of all books</h1>
+{% for bb in total_book%}
+<a href="{{book.get_absolute_url}}"> <p>{{bb|title}}</p></a>
+{% endfor %}
+<br>
+<h1> {{book_count}}</h1>
+<h2> {{avg_of_book}} </h2>
+{% endblock %}
+
